@@ -1,5 +1,9 @@
 {
   "rewrites": [
-    { "source": "/apps/(.*)", "destination": "/api/$1" }
+    { "source": "/apps/pf-profile", "destination": "/api/pf-profile" },
+    { "source": "/apps/pf-profile/update", "destination": "/api/pf-profile/update" },
+    { "source": "/apps/pf-profile/preferences", "destination": "/api/pf-profile/preferences" },
+    { "source": "/apps/pf-profile/event", "destination": "/api/pf-profile/event" },
+    { "source": "/apps/pf-profile/config", "destination": "/api/pf-profile/config" }
   ]
 }
